@@ -1,0 +1,77 @@
+
+.item {
+    text-align: center;
+    color: green;
+    background-color: rgba(37, 105, 16, 0.404);
+    width: 200px;
+    height: 30px;
+    margin: 0 auto; 
+
+}
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: azure
+}
+#title {
+    color: rgb(3, 82, 52);font-size: 50px;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: rgb(207, 110, 186); font-size: 30px;
+}
+
+
+.sec1 ul {
+    color: rgb(64, 64, 182); 
+}
+.sec1>section {
+    font-size: 32px;
+}
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+h1 {
+    font-style: italic;
+    letter-spacing: 3px;
+    text-decoration-line: overline;
+}
+ul {
+    display: grid;
+    list-style-type: square;
+  }
+
+ .box1 {
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(236, 243, 205);
+    padding: 20px;
+    margin: 1px;
+    width: 350px;
+    height: 150px;
+  }
+  .box2 {
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(218, 245, 145);
+    padding: 20px;
+    margin: 1px;
+    width: 350px;
+    height: 150px;
+  }
+  .box3 {
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(116, 170, 95);
+    padding: 20px;
+    margin: 1px;
+    width: 350px;
+    height: 150px;  
+  }
+  .center {
+    margin: auto;
+    width:30%;
+    padding: 40px;
+  }
