@@ -1,0 +1,137 @@
+
+
+
+
+.item {
+    max-width: 100px;
+    text-align: center;
+    color: green;
+    background-color: rgba(37, 105, 16, 0.404);
+    margin: auto; 
+
+}
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: azure;
+    background-image: linear-gradient(rgb(129, 194, 194), rgb(212, 236, 212)); 
+    
+
+}
+     
+#title {
+    color: rgb(3, 82, 52);font-size: 50px;
+
+}
+h1 {
+    transform: translateX(0px);
+    animation-name: goingin;
+    animation-duration: 2s;
+    
+   }
+@keyframes goingin {
+    from {transform: translateX(500px);}
+    to {transform: translateX(0px)}
+
+    }
+
+    body {
+        transform: translateX(0px);
+        animation-name: goingin;
+        animation-duration: 2s;
+        
+       }
+    @keyframes goingin {
+        from {transform: translateX(500px);}
+        to {transform: translateX(0px)}
+    
+        }
+
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: rgb(207, 110, 186); font-size: 30px;
+}
+
+
+.sec1 ul {
+    color: rgb(64, 64, 182); 
+}
+.sec1>section {
+    font-size: 32px;
+}
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+h1 {
+    font-style: italic;
+    letter-spacing: 3px;
+    text-decoration-line: overline;
+}
+ul {
+    display: grid;
+    list-style-type: square;
+  }
+
+ .box1 {
+    max-width: 350px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(236, 243, 205);
+    padding: 20px;
+    margin: auto;
+    transform: translateX(0px);
+        animation-name: goingin;
+        animation-duration: 2s;
+        
+       }
+    @keyframes goingin {
+        from {transform: translateX(500px);}
+        to {transform: translateX(0px)}
+    
+    
+  
+  }
+  .box2 {
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(218, 245, 145);
+    padding: 20px;
+    margin: auto;
+    transform: translateX(0px);
+        animation-name: goingin;
+        animation-duration: 3s;
+        
+       }
+    @keyframes goingin {
+        from {transform: translateX(500px);}
+        to {transform: translateX(0px)}
+    
+        
+  
+  }
+  .box3 {
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(116, 170, 95);
+    padding: 20px;
+    margin: auto;
+    transform: translateX(0px);
+        animation-name: goingin;
+        animation-duration: 4s;
+        
+       }
+    @keyframes goingin {
+        from {transform: translateX(500px);}
+        to {transform: translateX(0px)}
+    
+        
+  
+  }
+  .center {
+    justify-content: flex-start;
+    margin: auto;
+    width:30%;
+    padding: 40px;
+  }
