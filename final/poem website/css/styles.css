@@ -10,7 +10,14 @@ body{
     margin: 0 auto;
 }
 
-
+.frame{
+	border: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	z-index: 999;
+}
 .img-xyz {
     display: block;
     height: auto;
