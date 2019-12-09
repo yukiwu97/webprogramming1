@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #9fc6e5;
-}
-#mainWrapper{
-    width: 1024px;
-    margin: 0 auto;
+
+.level1bg {
+    background-color: #9ec5e4; 
+    left: 0px;
+    width: 100%;
 }
 
 .frame{
@@ -26,6 +25,8 @@ body{
 }
 .level1{
     height: 1024px;
+    width: 1024px;
+    margin:0 auto;
 }
 
 .level1 .level1-font1{
@@ -50,8 +51,16 @@ body{
     font-size: 30px;
 }
 
+.level2bg {
+    background-color: #587999; 
+    left: 0px;
+    width: 100%;
+}
+
 .level2{
     height: 1024px;
+    width: 1024px;
+    margin:0 auto;
 }
 
 .level2 .level2-font1{
@@ -76,9 +85,16 @@ body{
     font-size: 30px;
 }
 
+.level3bg {
+    background-color: #456685; 
+    left: 0px;
+    width: 100%;
+}
 
 .level3{
     height: 1024px;
+    width: 1024px;
+    margin:0 auto;
 }
 
 .level3 .level3-font1{
@@ -125,9 +141,16 @@ body{
     font-size: 30px;
 }
 
+.level4bg {
+    background-color: #0c2a45; 
+    left: 0px;
+    width: 100%;
+}
 
 .level4{
     height: 1024px;
+    width: 1024px;
+    margin:0 auto;
 }
 
 .level4 .level4-font1{
@@ -176,8 +199,16 @@ body{
     color: #6982a0;
 }
 
+.level5bg {
+    background-color: #051e34; 
+    left: 0px;
+    width: 100%;
+}
+
 .level5{
     height: 1024px;
+    width: 1024px;
+    margin:0 auto;
 }
 
 .level5 .level5-font1{
@@ -236,8 +267,6 @@ body{
     transform: rotate(1.7deg);
 }
 
-
-
 .level5 .level5-font5{
     position:absolute;
     z-index:3;
@@ -251,8 +280,6 @@ body{
     font-style:oblique;
     transform: rotate(1.7deg);
 }
-
-
 
 .level5 .level5-font6{
     position:absolute;
@@ -268,8 +295,16 @@ body{
     transform: rotate(1.7deg);
 }
 
+.level6bg {
+    background-color: #03182c; 
+    left: 0px;
+    width: 100%;
+}
+
 .level6{
     height: 1024px;
+    width: 1024px;
+    margin:0 auto;
 }
 
 .level6 .level6-font1{
