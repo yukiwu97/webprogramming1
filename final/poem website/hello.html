@@ -32,16 +32,26 @@
 		</span>
 	</h1>
 
-  
+	<h4>
+			<a href="index.html" id="enter_index" class="button" style="display: none">  · Enter ·</a>
+	</h4>
+
 </div>
+<!-- <div id="enter">
+	<h3>
+		<a href="index.html" id="enter_index" class="button" style="display: none"> enter </a>
+	</h3>
+</div>> -->
 
 <script src='js/modernizr.min.js'></script>
 <script src="js/script.js"></script>
 <script type="text/javascript">
-//	var test = function(){
-//		window.location.href = 'index.html'
-//	}
-//	setTimeout ('test()',10000);
+	var x = document.getElementById("enter_index")
+	var showEnter = function(){
+		// x.style.display = "inline";
+		x.style.display = "block";
+	};
+	setTimeout ('showEnter()',9000);
 </script>
 	
 

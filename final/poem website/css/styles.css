@@ -162,6 +162,7 @@
     padding-left:570px;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+    color: #a2c8f7
 }
 
 .level4 .level4-font2{
@@ -173,6 +174,7 @@
     padding-left: 590px;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+    color: #7797be
 }
 
 .level4 .level4-font3{
@@ -353,4 +355,25 @@
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     color: #d5b64a;
+}
+#sound_controls {
+    /* background-image: "../images/soundactive.png"; */
+    background-image: url("../images/soundactive.png");
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    z-index: 1001;
+}
+
+/* #sound_controls {
+    background-image: 'images/sound active.png';
+} */
+
+#sound_controls.active {
+    background-image: url("../images/soundpause.png");
+    height: 500px;
+    width: 500px;
+    /* background: red; */
 }
