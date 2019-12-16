@@ -71,6 +71,27 @@ h2 {
   bottom: 20px;
 }
 
+#enter {
+  transform-style: preserve-3d;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) translateZ(1px);
+  animation: box-in 8s linear;
+  transform-origin: 50% 50%;
+}
+a {
+  font-size: 30px;
+  color:rgb(176, 187, 212);
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  
+}
+a:hover {
+  background-color: rgba(123, 129, 138, 0.281);
+}
+
 @keyframes topborder-ani {
   0% {
     transform: scaleX(0);
